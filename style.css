@@ -1,10 +1,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Georgia', serif; /* More elegant font */
+    font-family: 'Georgia', serif;
     line-height: 1.6;
-    text-align: center; /* Center align all text */
-    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4); /* Pastel red, yellow, pink gradient */
+    text-align: center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
     color: #333;
 }
 
@@ -31,13 +31,13 @@ nav ul li a {
     color: #333;
     text-decoration: none;
     padding: 5px 10px;
-    border: 1px solid #ff9a9e; /* Border color matching gradient start */
+    border: 1px solid #ff9a9e;
     transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover, nav ul li a.active {
     background-color: rgba(255,255,255,0.2);
-    box-shadow: 0 0 10px #fad0c4; /* Shining effect on hover */
+    box-shadow: 0 0 10px #fad0c4;
     border-color: #fad0c4;
 }
 
@@ -46,7 +46,18 @@ main {
 }
 
 footer .social-media-links a {
-    color: #333; /* Same as the text color */
+    color: #333;
 }
 
-/* Other styles remain unchanged */
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
