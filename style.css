@@ -3,8 +3,8 @@ body, html {
     margin: 0;
     font-family: 'Georgia', serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #f9d423, #ff4e50); /* Yellow to Blue gradient */
-    color: #d3d3d3; /* Light grey text color */
+    background: linear-gradient(to right, #0f2027, #203a43); /* Dark blue to strong gray gradient */
+    color: #d3d3d3; /* Light grey body text */
     text-align: center;
 }
 
@@ -15,11 +15,11 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adding shadow for better visibility */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-    color: #f9d423; /* Yellow color for titles */
+h1, h2 {
+    color: #f9d423; /* Yellow color for header texts */
 }
 
 nav ul {
