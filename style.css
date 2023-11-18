@@ -1,10 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Georgia', serif; /* More elegant font */
     line-height: 1.6;
-    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Updated Pastel Gradient */
-    color: #333; /* Dark text color for better visibility on light background */
+    text-align: center; /* Center align all text */
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4); /* Pastel red, yellow, pink gradient */
+    color: #333;
 }
 
 header {
@@ -30,17 +31,22 @@ nav ul li a {
     color: #333;
     text-decoration: none;
     padding: 5px 10px;
-    border: 1px solid #a1c4fd; /* Pastel border color */
+    border: 1px solid #ff9a9e; /* Border color matching gradient start */
     transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover, nav ul li a.active {
     background-color: rgba(255,255,255,0.2);
-    box-shadow: 0 0 10px #c2e9fb; /* Shining effect on hover */
-    border-color: #c2e9fb;
+    box-shadow: 0 0 10px #fad0c4; /* Shining effect on hover */
+    border-color: #fad0c4;
 }
 
 main {
     padding-top: 80px;
 }
 
+footer .social-media-links a {
+    color: #333; /* Same as the text color */
+}
+
+/* Other styles remain unchanged */
