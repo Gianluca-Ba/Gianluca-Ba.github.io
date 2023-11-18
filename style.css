@@ -3,9 +3,9 @@ body, html {
     margin: 0;
     font-family: 'Georgia', serif;
     line-height: 1.6;
-    text-align: center;
     background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
     color: #333;
+    text-align: center; /* Ensure text is centered */
 }
 
 header {
@@ -20,6 +20,8 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: inline-block; /* Align the navigation menu */
+    margin: 0; /* Remove default margin */
 }
 
 nav ul li {
@@ -31,18 +33,18 @@ nav ul li a {
     color: #333;
     text-decoration: none;
     padding: 5px 10px;
-    border: 1px solid #ff9a9e;
+    border: 1px solid transparent; /* Remove persistent border */
     transition: all 0.3s ease-in-out;
 }
 
-nav ul li a:hover, nav ul li a.active {
+nav ul li a:hover {
     background-color: rgba(255,255,255,0.2);
     box-shadow: 0 0 10px #fad0c4;
-    border-color: #fad0c4;
+    border-color: #fad0c4; /* Only show border on hover */
 }
 
 main {
-    padding-top: 80px;
+    padding-top: 80px; /* Adjust as needed */
 }
 
 footer .social-media-links a {
