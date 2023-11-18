@@ -9,7 +9,8 @@ body, html {
 }
 
 header {
-    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 10px #f9d423; /* Slightly transparent white */
     padding: 1em 0;
     text-align: center;
     position: fixed;
@@ -17,6 +18,11 @@ header {
     z-index: 1000;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+main {
+    padding-top: 200px; 
+}
+
 
 h1, h2 {
     color: #f9d423; /* Yellow color for header texts */
