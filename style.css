@@ -3,17 +3,17 @@ body, html {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Futuristic Gradient Background */
-    color: #fff; /* White text color for better visibility on dark background */
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Updated Pastel Gradient */
+    color: #333; /* Dark text color for better visibility on light background */
 }
 
 header {
-    background: transparent; /* Make header background transparent */
+    background: transparent;
     padding: 1em 0;
     text-align: center;
-    position: fixed; /* Fix the header at the top */
+    position: fixed;
     width: 100%;
-    z-index: 1000; /* Ensure it's above other elements */
+    z-index: 1000;
 }
 
 nav ul {
@@ -27,20 +27,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     padding: 5px 10px;
-    border: 1px solid transparent;
-    transition: border 0.3s, background-color 0.3s;
+    border: 1px solid #a1c4fd; /* Pastel border color */
+    transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover, nav ul li a.active {
-    border: 1px solid #fff; /* Add white border for hover and active state */
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: 0 0 10px #c2e9fb; /* Shining effect on hover */
+    border-color: #c2e9fb;
 }
 
 main {
-    padding-top: 80px; /* Add padding to account for the fixed header */
+    padding-top: 80px;
 }
 
-/* Other styles remain unchanged */
