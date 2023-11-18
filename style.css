@@ -3,25 +3,30 @@ body, html {
     margin: 0;
     font-family: 'Georgia', serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
-    color: #333;
-    text-align: center; /* Ensure text is centered */
+    background: linear-gradient(to right, #f9d423, #ff4e50); /* Yellow to Blue gradient */
+    color: #d3d3d3; /* Light grey text color */
+    text-align: center;
 }
 
 header {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
     padding: 1em 0;
     text-align: center;
     position: fixed;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adding shadow for better visibility */
+}
+
+h1 {
+    color: #f9d423; /* Yellow color for titles */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    display: inline-block; /* Align the navigation menu */
-    margin: 0; /* Remove default margin */
+    display: inline-block;
+    margin: 0;
 }
 
 nav ul li {
@@ -33,22 +38,16 @@ nav ul li a {
     color: #333;
     text-decoration: none;
     padding: 5px 10px;
-    border: 1px solid transparent; /* Remove persistent border */
     transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
     background-color: rgba(255,255,255,0.2);
-    box-shadow: 0 0 10px #fad0c4;
-    border-color: #fad0c4; /* Only show border on hover */
+    box-shadow: 0 0 10px #f9d423; /* Shadow effect on hover */
 }
 
 main {
-    padding-top: 190px; /* Adjust as needed */
-}
-
-footer .social-media-links a {
-    color: #333;
+    padding-top: 100px; /* Adjusted to ensure content doesn't overlap header */
 }
 
 /* Responsive Design */
