@@ -126,8 +126,8 @@ footer a i {
     position: relative; /* To offset any container's position styles */
     left: 40%;
     right: 40%;
-    margin-left: -50vw; /* Pulls the section back into full view */
-    margin-right: -50vw;
+    margin-left: 20px; /* Pulls the section back into full view */
+    margin-right: 20px;
 }
 
 #section2 {
