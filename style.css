@@ -124,7 +124,7 @@ footer a i {
     padding-bottom: 30px; /* Increase top padding */
     background: #0f2027; /* Example color for section 1 */
     width: 100vw; /* Viewport width */
-    position: relative; /* To offset any container's position styles */
+    position: center; /* To offset any container's position styles */
     left: 40%;
     right: 40%;
     margin-left: 20px; /* Pulls the section back into full view */
