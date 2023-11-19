@@ -123,24 +123,26 @@ footer a i {
     background: #0f2027; /* Example color for section 1 */
     width: 100vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
-    left: 50%;
-    right: 50%;
+    left: 40%;
+    right: 40%;
     margin-left: -50vw; /* Pulls the section back into full view */
     margin-right: -50vw;
+    overflow-x: 50px;
 }
 
 #section2 {
     padding-top: 30px; /* Increase top padding */
     padding-bottom: 30px; /* Increase top padding */
     background: #e5e9ea; /* Example color for section 2 */
-    width: 100vw; /* Viewport width */
+    width: 110vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw; /* Pulls the section back into full view */
-    margin-right: -50vw;
+    left: 60%;
+    right: 60%;
+    margin-left: -55vw; /* Pulls the section back into full view */
+    margin-right: -55vw;
     justify-content: center;
     text-align: center;
+    overflow-x: 50px;
 }
 
 #textArea1 {
