@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to bottom, #0f2027 50%, #e5e9ea 50%); /* Dark blue to gray  */
+    background: linear-gradient(to bottom, #0f2027 60%, #e5e9ea 40%); /* Dark blue to gray  */
     color: #d3d3d3; /* Light grey text */
     text-align: center;
 }
@@ -44,10 +44,10 @@ nav ul li {
 
 nav ul li a {
     font-family: 'phosphate inline', sans-serif;
-    color: #d3d3d3;
+    color: #0f2027;
     text-decoration: none;
     font-size: 1.2em;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #0f2027;
     padding: 10px 20px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
