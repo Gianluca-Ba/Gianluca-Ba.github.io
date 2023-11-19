@@ -3,7 +3,7 @@ body, html {
     margin: 50px;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #0f2027, #203a43); /* Dark blue to gray gradient */
+    background: linear-gradient(to bottom, #0f2027, #e5e9ea); /* Dark blue to gray gradient */
     color: #d3d3d3; /* Light grey text */
     text-align: center;
 }
@@ -87,7 +87,7 @@ footer a i {
     }
 
     nav ul li a {
-        font-family: 'Arial', sans-serif;
+            font-family: 'Arial', sans-serif;
         padding: 8px 15px;
         font-size: 1em;
     }
