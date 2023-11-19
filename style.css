@@ -21,6 +21,11 @@ header, nav ul {
     align-items: center;
 }
 
+ul {
+    font-family: Arial, sans-serif;
+}
+
+
 header h1 {
     font-family: 'phosphate inline', sans-serif;
     color: rgb(214, 131, 86); /* Yellow color for the title text */
