@@ -9,6 +9,7 @@ body, html {
 }
 
 .container {
+    font-family: 'Arial', sans-serif;
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -24,6 +25,7 @@ header h1 {
 }
 
 header p {
+    font-family: 'Arial', sans-serif;
     margin-top: 0.5em;
     color: #d3d3d3; /* Light grey for subtitle */
 }
@@ -64,6 +66,7 @@ nav ul li a:hover {
 }
 
 footer a {
+    font-family: 'Arial', sans-serif;
     display: block;
     color: #d3d3d3;
     margin: 10px 0;
@@ -84,6 +87,7 @@ footer a i {
     }
 
     nav ul li a {
+        font-family: 'Arial', sans-serif;
         padding: 8px 15px;
         font-size: 1em;
     }
