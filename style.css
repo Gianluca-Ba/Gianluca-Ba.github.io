@@ -6,7 +6,6 @@ body, html {
     background: #0f2027;
     color: #d3d3d3; /* Light grey text */
     text-align: center;
-    overflow-x: 50px;
 }
 
 header, nav ul {
@@ -127,7 +126,6 @@ footer a i {
     right: 40%;
     margin-left: -50vw; /* Pulls the section back into full view */
     margin-right: -50vw;
-    overflow-x: 50px;
 }
 
 #section2 {
