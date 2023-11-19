@@ -80,8 +80,10 @@ nav ul li a:hover {
 }
 
 footer {
+    display: flex;
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    justify-content: space-around; /* Distribuisce lo spazio intorno agli elementi */
     text-align: left;
-    margin-left: 40%;
 }
 
 footer a {
