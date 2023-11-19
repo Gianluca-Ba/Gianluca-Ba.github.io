@@ -22,11 +22,13 @@ header h1 {
     font-family: 'phosphate inline', sans-serif;
     color: rgb(214, 131, 86); /* Yellow color for the title text */
     font-size: 3em;
+    background: #0f2027;
 }
 
 header p {
     font-family: 'Arial', sans-serif;
     margin-top: 0.5em;
+    background: #0f2027;
     color: #d3d3d3; /* Light grey for subtitle */
 }
 
@@ -51,26 +53,29 @@ nav ul li a {
     padding: 10px 20px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
+    background: #e5e9ea;
 }
 
 nav ul li a .arrow {
     font-family: 'phosphate inline', sans-serif;
     margin-left: 10px;
+    color: #0f2027;
 }
 
 nav ul li a:hover {
     font-family: 'phosphate inline', sans-serif;
     background-color: transparent;
-    border-color: #f9d423; /* Hover effect color change */
-    color: #f9d423;
+    border-color: rgb(214, 131, 86); /* Hover effect color change */
+    color: rgb(214, 131, 86);
 }
 
 footer a {
     font-family: 'Arial', sans-serif;
     display: block;
-    color: #0f2027;
+    color: #d3d3d3;
     margin: 10px 0;
     text-decoration: none;
+    background: #0f2027
 }
 
 footer a:hover {
