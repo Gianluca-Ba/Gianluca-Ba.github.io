@@ -29,15 +29,19 @@ header p {
 }
 
 nav ul {
+    font-family: 'phosphate inline', sans-serif;
     list-style: none;
     padding: 0;
 }
 
+
 nav ul li {
+    font-family: 'phosphate inline', sans-serif;
     margin: 20px 0;
 }
 
 nav ul li a {
+    font-family: 'phosphate inline', sans-serif;
     color: #d3d3d3;
     text-decoration: none;
     font-size: 1.2em;
@@ -48,10 +52,12 @@ nav ul li a {
 }
 
 nav ul li a .arrow {
+    font-family: 'phosphate inline', sans-serif;
     margin-left: 10px;
 }
 
 nav ul li a:hover {
+    font-family: 'phosphate inline', sans-serif;
     background-color: rgba(255,255,255,0.2);
     border-color: #f9d423; /* Hover effect color change */
     color: #f9d423;
