@@ -18,13 +18,13 @@ header, nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: left;
+    margin: left 25px;
 }
 
 ul {
     font-family: Arial, sans-serif;
     justify-content: left;
-    margin: 45px;
 }
 
 
