@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 100px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'phosphate inline', sans-serif;
     line-height: 1.6;
     background: linear-gradient(to right, #0f2027, #203a43); /* Dark blue to gray gradient */
     color: #d3d3d3; /* Light grey text */
@@ -81,3 +81,9 @@ footer a i {
         font-size: 1em;
     }
 }
+
+/*licens for images 
+
+            Image by <a href="https://www.freepik.com/free-vector/paper-style-dynamic-lines-background_15442020.htm#page=3&query=modern%20background&position=8&from_view=search&track=ais&uuid=35cb00e5-d104-4688-8ffe-10ace0f15422">Freepik</a>
+
+*/
