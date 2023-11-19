@@ -8,6 +8,10 @@ body, html {
     text-align: center;
 }
 
+header, nav ul {
+    font-family: 'phosphate inline', sans-serif;
+}
+
 .container {
     font-family: 'Arial', sans-serif;
     position: relative;
@@ -109,6 +113,7 @@ footer a i {
 }
 
 #section2 {
+    padding-top: 50px; /* Increase top padding */
     background: #e5e9ea; /* Example color for section 2 */
     width: 100vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
