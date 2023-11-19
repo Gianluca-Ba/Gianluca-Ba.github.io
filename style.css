@@ -79,6 +79,11 @@ nav ul li a:hover {
     color: rgb(214, 131, 86);
 }
 
+footer {
+    text-align: left;
+    margin-left: 40%;
+}
+
 footer a {
     font-family: 'Arial', sans-serif;
     display: block;
@@ -86,6 +91,7 @@ footer a {
     margin: 10px 0;
     text-decoration: none;
     background: #0f2027
+
 }
 
 footer a:hover {
