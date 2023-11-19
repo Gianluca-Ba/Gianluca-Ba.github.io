@@ -23,6 +23,8 @@ header, nav ul {
 
 ul {
     font-family: Arial, sans-serif;
+    justify-content: left;
+    margin: 45px;
 }
 
 
