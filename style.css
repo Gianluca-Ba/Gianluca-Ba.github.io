@@ -6,7 +6,7 @@ body, html {
     background: #0f2027;
     color: #d3d3d3; /* Light grey text */
     text-align: center;
-    overflow-x: hidden;
+    overflow-x: 50px;
 }
 
 header, nav ul {
