@@ -130,6 +130,8 @@ footer a i {
     right: 50%;
     margin-left: -50vw; /* Pulls the section back into full view */
     margin-right: -50vw;
+    justify-content: center;
+    text-align: center;
 }
 
 #textArea1 {
