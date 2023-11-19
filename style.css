@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    margin: 45px;
     font-family: 'phosphate inline', sans-serif;
     line-height: 1.6;
     background: #0f2027;
@@ -17,7 +18,6 @@ header, nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
 }
 
 #project {
@@ -33,7 +33,6 @@ header h1 {
     color: rgb(214, 131, 86); /* Yellow color for the title text */
     font-size: 3em;
     background: #0f2027;
-    width: 100%;
 }
 
 header p {
@@ -41,21 +40,18 @@ header p {
     margin-top: 0.5em;
     background: #0f2027;
     color: #d3d3d3; /* Light grey for subtitle */
-    width: 100%;
 }
 
 nav ul {
     font-family: 'phosphate inline', sans-serif;
     list-style: none;
     padding: 0;
-    width: 100%;
 }
 
 
 nav ul li {
     font-family: 'phosphate inline', sans-serif;
     margin: 20px 0;
-    width: 100%;
 }
 
 nav ul li a {
@@ -68,14 +64,12 @@ nav ul li a {
     display: inline-block;
     transition: all 0.3s ease-in-out;
     background: #e5e9ea;
-    width: 100%;
 }
 
 nav ul li a .arrow {
     font-family: 'phosphate inline', sans-serif;
     margin-left: 10px;
     color: #0f2027;
-    width: 100%;
 }
 
 nav ul li a:hover {
@@ -83,17 +77,13 @@ nav ul li a:hover {
     background-color: transparent;
     border-color: rgb(214, 131, 86); /* Hover effect color change */
     color: rgb(214, 131, 86);
-    width: 100%;
 }
-
 
 footer {
     display: flex;
-    flex-direction: row; /* Align items in a row instead of column */
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    justify-content: space-around; /* Distribuisce lo spazio intorno agli elementi */
     text-align: left;
-    width: 100%;
 }
 
 footer a {
@@ -130,18 +120,19 @@ footer a i {
     padding-top: 30px; /* Increase top padding */
     padding-bottom: 30px; /* Increase top padding */
     background: #0f2027; /* Example color for section 1 */
+    width: 100vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
     left: 50%;
     right: 50%;
     margin-left: -50vw; /* Pulls the section back into full view */
     margin-right: -50vw;
-    width: 100%;
 }
 
 #section2 {
     padding-top: 30px; /* Increase top padding */
     padding-bottom: 30px; /* Increase top padding */
     background: #e5e9ea; /* Example color for section 2 */
+    width: 100vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
     left: 50%;
     right: 50%;
@@ -149,7 +140,6 @@ footer a i {
     margin-right: -50vw;
     justify-content: center;
     text-align: center;
-    width: 100%;
 }
 
 #textArea1 {
