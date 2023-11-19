@@ -99,10 +99,12 @@ footer a i {
 }
 
 #section1 {
+    width: 100%; 
     background: #0f2027; /* Example color for section 1 */
 }
 
 #section2 {
+    width: 100%; 
     background: #e5e9ea; /* Example color for section 2 */
 }
 
