@@ -3,7 +3,7 @@ body, html {
     margin: 45px;
     font-family: 'phosphate inline', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to bottom, #0f2027 60%, #e5e9ea 40%); /* Dark blue to gray  */
+    background: #0f2027;
     color: #d3d3d3; /* Light grey text */
     text-align: center;
 }
