@@ -103,6 +103,7 @@ footer a i {
 
 #section1 {
     padding-top: 30px; /* Increase top padding */
+    padding-bottom: 30px; /* Increase top padding */
     background: #0f2027; /* Example color for section 1 */
     width: 100vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
@@ -114,6 +115,7 @@ footer a i {
 
 #section2 {
     padding-top: 30px; /* Increase top padding */
+    padding-bottom: 30px; /* Increase top padding */
     background: #e5e9ea; /* Example color for section 2 */
     width: 100vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
