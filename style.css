@@ -98,6 +98,22 @@ footer a i {
     }
 }
 
+#section1 {
+    background: #0f2027; /* Example color for section 1 */
+}
+
+#section2 {
+    background: #e5e9ea; /* Example color for section 2 */
+}
+
+#textArea1 {
+    background-color: #FFB6C1; /* Example color for text area */
+}
+
+#button1 {
+    background-color: #FFA07A; /* Example color for button */
+}
+
 /*licens for images 
 
             Image by <a href="https://www.freepik.com/free-vector/paper-style-dynamic-lines-background_15442020.htm#page=3&query=modern%20background&position=8&from_view=search&track=ais&uuid=35cb00e5-d104-4688-8ffe-10ace0f15422">Freepik</a>
