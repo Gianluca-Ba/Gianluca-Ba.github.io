@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     font-family: 'phosphate inline', sans-serif;
     line-height: 1.6;
-    background: #0f2027;
+    background: linear-gradient(to right, #143544, #0c1024);
     color: #d3d3d3; /* Light grey text */
     text-align: center;
     justify-content: center;
@@ -35,13 +35,13 @@ header h1 {
     font-family: 'phosphate inline', sans-serif;
     color: rgb(214, 131, 86); /* Yellow color for the title text */
     font-size: 3em;
-    background: #0f2027;
+    background: linear-gradient(to right, #143544, #0c1024);
 }
 
 header p {
     font-family: 'Arial', sans-serif;
     margin-top: 0.5em;
-    background: #0f2027;
+    background: linear-gradient(to right, #143544, #0c1024);
     color: #d3d3d3; /* Light grey for subtitle */
 }
 
@@ -62,7 +62,7 @@ nav ul li a {
     color: #0f2027;
     text-decoration: none;
     font-size: 1.2em;
-    border: 1px solid #0f2027;
+    background: linear-gradient(to right, #143544, #0c1024);
     padding: 10px 20px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
@@ -72,7 +72,7 @@ nav ul li a {
 nav ul li a .arrow {
     font-family: 'phosphate inline', sans-serif;
     margin-left: 10px;
-    color: #0f2027;
+    color: #143544;
 }
 
 nav ul li a:hover {
@@ -83,8 +83,8 @@ nav ul li a:hover {
 }
 
 footer {
-    display: flex;
-    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    display: line;
+    align-items: inline; /* Allinea verticalmente gli elementi al centro */
     justify-content: space-around; /* Distribuisce lo spazio intorno agli elementi */
     text-align: center;
 }
@@ -95,7 +95,7 @@ footer a {
     color: #d3d3d3;
     margin: 10px 0;
     text-decoration: none;
-    background: #0f2027
+    background: linear-gradient(to right, #143544, #0c1024);
 
 }
 
@@ -122,8 +122,10 @@ footer a i {
 #section1 {
     padding-top: 30px; /* Increase top padding */
     padding-bottom: 30px; /* Increase top padding */
-    background: #0f2027; /* Example color for section 1 */
-    width: 100vw; /* Viewport width */
+    padding-left: 50px; /* Increase top padding */
+    padding-right: 50px; /* Increase top padding */
+    background: linear-gradient(to right, #143544, #0c1024); /* Example color for section 1 */
+    width: 90vw; /* Viewport width */
     position: center; /* To offset any container's position styles */
     left: 40%;
     right: 40%;
@@ -146,12 +148,65 @@ footer a i {
     overflow-x: 50px;
 }
 
+#section3 {
+    padding-top: 30px; /* Increase top padding */
+    padding-bottom: 30px; /* Increase top padding */
+    background: linear-gradient(to right, #143341, #0c1024); /* Example color for section 2 */
+    width: 110vw; /* Viewport width */
+    position: relative; /* To offset any container's position styles */
+    left: 60%;
+    right: 60%;
+    margin-left: -55vw; /* Pulls the section back into full view */
+    margin-right: -55vw;
+    justify-content: center;
+    text-align: center;
+    overflow-x: 50px;
+}
+
+#sectionfooter {
+    padding-top: 30px; /* Increase top padding */
+    padding-bottom: 30px; /* Increase top padding */
+    padding-left: 50px; /* Increase top padding */
+    padding-right: 50px; /* Increase top padding */
+    background: linear-gradient(to right, #143544, #0c1024); /* Example color for section 1 */
+    width: 90vw; /* Viewport width */
+    position: center; /* To offset any container's position styles */
+    left: auto;
+    right: auto;
+    margin-left: 20px; /* Pulls the section back into full view */
+    margin-right: 20px;
+}
+#sectionpheder {
+    color:  rgb(214, 131, 86);   
+}
+#sectionpmain {
+    color:  #0f2027;   
+}
 #textArea1 {
     background-color: #FFB6C1; /* Example color for text area */
 }
 
 #button1 {
     background-color: #FFA07A; /* Example color for button */
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    grid-gap: 20px; /* Adjust the space between grid items */
+    margin: 0 auto; /* Center the grid */
+    max-width: 1200px; /* Maximum width of the grid */
+    padding: 20px; /* Padding around the grid */
+}
+
+.project-item {
+    background: linear-gradient(to right, #bfbab8, #eaeaeb, #bab7b5); /* Background color for each item */
+    
+    padding: 20px; /* Padding inside each item */
+    border: 10px  #cccccc; /* Border for each item */
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
+    /* Add other styling as needed */
 }
 
 /*licens for images 
