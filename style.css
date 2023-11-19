@@ -79,10 +79,12 @@ nav ul li a:hover {
     color: rgb(214, 131, 86);
 }
 
+
 footer {
     display: flex;
-    align-items: center; /* Allinea verticalmente gli elementi al centro */
-    justify-content: space-around; /* Distribuisce lo spazio intorno agli elementi */
+    flex-direction: row; /* Align items in a row instead of column */
+    align-items: center;
+    justify-content: space-around;
     text-align: left;
 }
 
