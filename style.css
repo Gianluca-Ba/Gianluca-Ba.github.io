@@ -20,7 +20,7 @@ header, nav ul {
     justify-content: center;
 }
 
-ul {
+#project {
     font-family: Arial, sans-serif;
     justify-content: left;
     text-align: left;
