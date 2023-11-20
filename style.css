@@ -218,8 +218,10 @@ footer a i {
 }
 
 .project-item2uop {
-    background-image: url(resurcesr/Uofpeople.png); /* Background color for each item */
-    
+    background-image: url(Uofpeople.png); /* Background color for each item */
+    background-size: cover; /* This will make sure your image covers the entire area */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; 
     padding: 20px; /* Padding inside each item */
     border: 10px  #cccccc; /* Border for each item */
     border-radius: 10px;
