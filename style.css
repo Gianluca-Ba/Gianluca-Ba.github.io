@@ -208,6 +208,44 @@ footer a i {
     /* Add other styling as needed */
 }
 
+.projects-grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates two columns */
+    grid-gap: 20px; /* Adjust the space between grid items */
+    margin: 0 auto; /* Center the grid */
+    max-width: 1200px; /* Maximum width of the grid */
+    padding: 20px; /* Padding around the grid */
+}
+
+.project-item2uop {
+    background-image: url(resurcesr/Uofpeople.png); /* Background color for each item */
+    
+    padding: 20px; /* Padding inside each item */
+    border: 10px  #cccccc; /* Border for each item */
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
+    /* Add other styling as needed */
+}
+
+.project-item2nobile {
+    background-image: linear-gradient(to right, #c5daf5, #f4cece, #c5daf5); /* Background color for each item */
+    
+    padding: 20px; /* Padding inside each item */
+    border: 10px  #cccccc; /* Border for each item */
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
+    /* Add other styling as needed */
+}
+
+.project-item2inter {
+    background-image: linear-gradient(to right, #c5daf5, #f4cece, #c5daf5); /* Background color for each item */
+    
+    padding: 20px; /* Padding inside each item */
+    border: 10px  #cccccc; /* Border for each item */
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
+    /* Add other styling as needed */
+}
 /*licens for images 
 
             Image by <a href="https://www.freepik.com/free-vector/paper-style-dynamic-lines-background_15442020.htm#page=3&query=modern%20background&position=8&from_view=search&track=ais&uuid=35cb00e5-d104-4688-8ffe-10ace0f15422">Freepik</a>
