@@ -221,7 +221,7 @@ footer a i {
 
 .project-item2uop {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/All-certifications.pdf); /* Background color for each item */
+    background-image: url(resurces/Uofpeople.jpeg); /* Background color for each item */
     background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -309,14 +309,16 @@ footer a i {
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 
-.firma {
-    font-family: 'Great Vibes', cursive;  /* Sostituisci con il nome del font che preferisci */
-    font-size: 2em; /* Puoi regolare la dimensione del font secondo necessità */
-    color: rgb(255, 255, 255); /* Colore del testo della firma, cambialo a tuo piacimento */
+#sectionfooter::after{
+    content: '';
     position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-right: 10px; /* Aggiusta il margine per posizionare correttamente la firma */
+    bottom: 0px;
+    right: 10px;
+    background-image: url('resurces/firma-bianca.png'); /* Sostituisci con il percorso della tua immagine di firma */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 225px; /* Ajusta come necessario */
+    height: 85px; /* Ajusta come necessario */
 }
 
 /*licens for images 
