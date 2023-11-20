@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 body, html {
     height: 100%;
     margin: 0;
@@ -219,7 +221,7 @@ footer a i {
 
 .project-item2uop {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(Uofpeople.jpeg); /* Background color for each item */
+    background-image: url(resurces/All-certifications.pdf); /* Background color for each item */
     background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -232,7 +234,7 @@ footer a i {
 
 .project-item2nobile {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(nobile.jpeg); /* Background color for each item */
+    background-image: url(resurces/nobile.jpeg); /* Background color for each item */
     background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -245,7 +247,7 @@ footer a i {
 
 .project-item2inter {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(IIOJ.jpeg); /* Background color for each item */
+    background-image: url(resurces/IIOJ.jpeg); /* Background color for each item */
     background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -257,7 +259,7 @@ footer a i {
 }
 .project-item2Google {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(google.png); /* Background color for each item */
+    background-image: url(resurces/google.png); /* Background color for each item */
     background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -270,7 +272,7 @@ footer a i {
 
 .project-item2IBM {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(ibm.png); /* Background color for each item */
+    background-image: url(resurces/ibm.png); /* Background color for each item */
     background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -283,7 +285,7 @@ footer a i {
 
 .project-item2Microsoft {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(microsoft.png); /* Background color for each item */
+    background-image: url(resurces/microsoft.png); /* Background color for each item */
     background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -296,7 +298,7 @@ footer a i {
 
 .project-item2HArvard {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(hervard.png); /* Background color for each item */
+    background-image: url(resurces/hervard.png); /* Background color for each item */
     background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
@@ -306,6 +308,17 @@ footer a i {
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
+
+.firma {
+    font-family: 'Great Vibes', cursive;  /* Sostituisci con il nome del font che preferisci */
+    font-size: 2em; /* Puoi regolare la dimensione del font secondo necessità */
+    color: rgb(255, 255, 255); /* Colore del testo della firma, cambialo a tuo piacimento */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px; /* Aggiusta il margine per posizionare correttamente la firma */
+}
+
 /*licens for images 
 
             Image by <a href="https://www.freepik.com/free-vector/paper-style-dynamic-lines-background_15442020.htm#page=3&query=modern%20background&position=8&from_view=search&track=ais&uuid=35cb00e5-d104-4688-8ffe-10ace0f15422">Freepik</a>
