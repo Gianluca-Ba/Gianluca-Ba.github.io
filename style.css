@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&display=swap');
 
 body, html {
     height: 100%;
@@ -35,7 +37,7 @@ header, nav ul {
 
 
 header h1 {
-    font-family: 'phosphate inline', sans-serif;
+    font-family: 'Big Shoulders Inline Text', sans-serif;
     color: rgb(214, 131, 86); /* Yellow color for the title text */
     font-size: 5em;
     background: transparent;
