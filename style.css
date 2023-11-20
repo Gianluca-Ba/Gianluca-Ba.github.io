@@ -218,35 +218,93 @@ footer a i {
 }
 
 .project-item2uop {
-    background-image: url(Uofpeople.png); /* Background color for each item */
+    background-color: rgba(255, 255, 255, 0.85); 
+    background-image: url(Uofpeople.jpeg); /* Background color for each item */
+    background-blend-mode: overlay;
     background-size: cover; /* This will make sure your image covers the entire area */
     background-repeat: no-repeat; /* This prevents the image from repeating */
     background-position: center; 
     padding: 20px; /* Padding inside each item */
     border: 10px  #cccccc; /* Border for each item */
     border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
-    /* Add other styling as needed */
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 
 .project-item2nobile {
-    background-image: linear-gradient(to right, #c5daf5, #f4cece, #c5daf5); /* Background color for each item */
-    
+    background-color: rgba(255, 255, 255, 0.85); 
+    background-image: url(nobile.jpeg); /* Background color for each item */
+    background-blend-mode: overlay;
+    background-size: cover; /* This will make sure your image covers the entire area */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; 
     padding: 20px; /* Padding inside each item */
     border: 10px  #cccccc; /* Border for each item */
     border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
-    /* Add other styling as needed */
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 
 .project-item2inter {
-    background-image: linear-gradient(to right, #c5daf5, #f4cece, #c5daf5); /* Background color for each item */
-    
+    background-color: rgba(255, 255, 255, 0.85); 
+    background-image: url(IIOJ.jpeg); /* Background color for each item */
+    background-blend-mode: overlay;
+    background-size: cover; /* This will make sure your image covers the entire area */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; 
     padding: 20px; /* Padding inside each item */
     border: 10px  #cccccc; /* Border for each item */
     border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
-    /* Add other styling as needed */
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
+}
+.project-item2Google {
+    background-color: rgba(255, 255, 255, 0.85); 
+    background-image: url(google.png); /* Background color for each item */
+    background-blend-mode: overlay;
+    background-size: cover; /* This will make sure your image covers the entire area */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; 
+    padding: 20px; /* Padding inside each item */
+    border: 10px  #cccccc; /* Border for each item */
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
+}
+
+.project-item2IBM {
+    background-color: rgba(255, 255, 255, 0.85); 
+    background-image: url(ibm.png); /* Background color for each item */
+    background-blend-mode: overlay;
+    background-size: cover; /* This will make sure your image covers the entire area */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; 
+    padding: 20px; /* Padding inside each item */
+    border: 10px  #cccccc; /* Border for each item */
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
+}
+
+.project-item2Microsoft {
+    background-color: rgba(255, 255, 255, 0.85); 
+    background-image: url(microsoft.png); /* Background color for each item */
+    background-blend-mode: overlay;
+    background-size: cover; /* This will make sure your image covers the entire area */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; 
+    padding: 20px; /* Padding inside each item */
+    border: 10px  #cccccc; /* Border for each item */
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
+}
+
+.project-item2HArvard {
+    background-color: rgba(255, 255, 255, 0.85); 
+    background-image: url(hervard.png); /* Background color for each item */
+    background-blend-mode: overlay;
+    background-size: cover; /* This will make sure your image covers the entire area */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; 
+    padding: 20px; /* Padding inside each item */
+    border: 10px  #cccccc; /* Border for each item */
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 /*licens for images 
 
