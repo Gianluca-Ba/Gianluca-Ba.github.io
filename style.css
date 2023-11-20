@@ -10,6 +10,7 @@ body, html {
     overflow-x: hidden;
 }
 
+
 header, nav ul {
     font-family: 'phosphate inline', sans-serif;
 }
@@ -34,7 +35,7 @@ header, nav ul {
 header h1 {
     font-family: 'phosphate inline', sans-serif;
     color: rgb(214, 131, 86); /* Yellow color for the title text */
-    font-size: 3em;
+    font-size: 5em;
     background: linear-gradient(to right, #143544, #0c1024);
 }
 
@@ -152,15 +153,15 @@ footer a i {
     padding-top: 30px; /* Increase top padding */
     padding-bottom: 30px; /* Increase top padding */
     background: linear-gradient(to right, #143341, #0c1024); /* Example color for section 2 */
-    width: 110vw; /* Viewport width */
+    width: 100vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
-    left: 60%;
-    right: 60%;
-    margin-left: -55vw; /* Pulls the section back into full view */
-    margin-right: -55vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw; /* Pulls the section back into full view */
+    margin-right: -50vw;
     justify-content: center;
     text-align: center;
-    overflow-x: 50px;
+    overflow-x: 25px;
 }
 
 #sectionfooter {
@@ -177,17 +178,15 @@ footer a i {
     margin-right: 20px;
 }
 #sectionpheder {
-    color:  rgb(214, 131, 86);   
+    color:  #224555;  
+    font-family: 'phosphate solid', sans-serif;
+    font-size: 1.5em;
 }
 #sectionpmain {
     color:  #0f2027;   
 }
 #textArea1 {
     background-color: #FFB6C1; /* Example color for text area */
-}
-
-#button1 {
-    background-color: #FFA07A; /* Example color for button */
 }
 
 .projects-grid {
@@ -200,7 +199,7 @@ footer a i {
 }
 
 .project-item {
-    background: linear-gradient(to right, #bfbab8, #eaeaeb, #bab7b5); /* Background color for each item */
+    background: linear-gradient(to right, #c5daf5, #f4cece, #c5daf5); /* Background color for each item */
     
     padding: 20px; /* Padding inside each item */
     border: 10px  #cccccc; /* Border for each item */
