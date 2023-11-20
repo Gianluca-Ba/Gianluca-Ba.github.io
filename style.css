@@ -36,7 +36,7 @@ header h1 {
     font-family: 'phosphate inline', sans-serif;
     color: rgb(214, 131, 86); /* Yellow color for the title text */
     font-size: 5em;
-    background: linear-gradient(to right, #143544, #0c1024);
+    background: transparent;
 }
 
 header p {
@@ -96,7 +96,7 @@ footer a {
     color: #d3d3d3;
     margin: 10px 0;
     text-decoration: none;
-    background: linear-gradient(to right, #143544, #0c1024);
+    background: transparent;
 
 }
 
@@ -125,7 +125,7 @@ footer a i {
     padding-bottom: 30px; /* Increase top padding */
     padding-left: 50px; /* Increase top padding */
     padding-right: 50px; /* Increase top padding */
-    background: linear-gradient(to right, #143544, #0c1024); /* Example color for section 1 */
+    background: transparent; 
     width: 90vw; /* Viewport width */
     position: center; /* To offset any container's position styles */
     left: 40%;
@@ -137,7 +137,7 @@ footer a i {
 #section2 {
     padding-top: 30px; /* Increase top padding */
     padding-bottom: 30px; /* Increase top padding */
-    background: #e5e9ea; /* Example color for section 2 */
+    background: #e5e9ea; 
     width: 110vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
     left: 60%;
@@ -152,7 +152,7 @@ footer a i {
 #section3 {
     padding-top: 30px; /* Increase top padding */
     padding-bottom: 30px; /* Increase top padding */
-    background: linear-gradient(to right, #143341, #0c1024); /* Example color for section 2 */
+    background: transparent;
     width: 100vw; /* Viewport width */
     position: relative; /* To offset any container's position styles */
     left: 50%;
@@ -169,7 +169,7 @@ footer a i {
     padding-bottom: 30px; /* Increase top padding */
     padding-left: 50px; /* Increase top padding */
     padding-right: 50px; /* Increase top padding */
-    background: linear-gradient(to right, #143544, #0c1024); /* Example color for section 1 */
+    background: transparent ;
     width: 90vw; /* Viewport width */
     position: center; /* To offset any container's position styles */
     left: auto;
