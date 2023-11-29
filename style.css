@@ -8,7 +8,7 @@ body, html {
     font-family: 'phosphate inline', sans-serif;
     line-height: 1.6;
     background: linear-gradient(to right, #143544, #0c1024);
-    color: #d3d3d3; /* Light grey text */
+    color: #d3d3d3; 
     text-align: center;
     justify-content: center;
     overflow-x: hidden;
@@ -38,7 +38,7 @@ header, nav ul {
 
 header h1 {
     font-family: 'Big Shoulders Inline Text', sans-serif;
-    color: rgb(214, 131, 86); /* Yellow color for the title text */
+    color: rgb(214, 131, 86);
     font-size: 5em;
     background: transparent;
 }
@@ -47,7 +47,7 @@ header p {
     font-family: 'Arial', sans-serif;
     margin-top: 0.5em;
     background: linear-gradient(to right, #143544, #0c1024);
-    color: #d3d3d3; /* Light grey for subtitle */
+    color: #d3d3d3; 
 }
 
 nav ul {
@@ -83,14 +83,14 @@ nav ul li a .arrow {
 nav ul li a:hover {
     font-family: 'phosphate inline', sans-serif;
     background-color: transparent;
-    border-color: rgb(214, 131, 86); /* Hover effect color change */
+    border-color: rgb(214, 131, 86); 
     color: rgb(214, 131, 86);
 }
 
 footer {
     display: line;
-    align-items: inline; /* Allinea verticalmente gli elementi al centro */
-    justify-content: space-around; /* Distribuisce lo spazio intorno agli elementi */
+    align-items: inline; 
+    justify-content: space-around; 
     text-align: center;
 }
 
@@ -125,28 +125,28 @@ footer a i {
 }
 
 #section1 {
-    padding-top: 30px; /* Increase top padding */
-    padding-bottom: 30px; /* Increase top padding */
-    padding-left: 50px; /* Increase top padding */
-    padding-right: 50px; /* Increase top padding */
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    padding-left: 50px; 
+    padding-right: 50px; 
     background: transparent; 
-    width: 90vw; /* Viewport width */
-    position: center; /* To offset any container's position styles */
+    width: 90vw; 
+    position: center; 
     left: 40%;
     right: 40%;
-    margin-left: 20px; /* Pulls the section back into full view */
+    margin-left: 20px; 
     margin-right: 20px;
 }
 
 #section2 {
-    padding-top: 30px; /* Increase top padding */
-    padding-bottom: 30px; /* Increase top padding */
+    padding-top: 30px; 
+    padding-bottom: 30px; 
     background: #e5e9ea; 
-    width: 110vw; /* Viewport width */
-    position: relative; /* To offset any container's position styles */
+    width: 110vw; 
+    position: relative; 
     left: 60%;
     right: 60%;
-    margin-left: -55vw; /* Pulls the section back into full view */
+    margin-left: -55vw; 
     margin-right: -55vw;
     justify-content: center;
     text-align: center;
@@ -154,14 +154,14 @@ footer a i {
 }
 
 #section3 {
-    padding-top: 30px; /* Increase top padding */
-    padding-bottom: 30px; /* Increase top padding */
+    padding-top: 30px; 
+    padding-bottom: 30px; 
     background: transparent;
-    width: 100vw; /* Viewport width */
-    position: relative; /* To offset any container's position styles */
+    width: 100vw;
+    position: relative; 
     left: 50%;
     right: 50%;
-    margin-left: -50vw; /* Pulls the section back into full view */
+    margin-left: -50vw; 
     margin-right: -50vw;
     justify-content: center;
     text-align: center;
@@ -169,16 +169,16 @@ footer a i {
 }
 
 #sectionfooter {
-    padding-top: 30px; /* Increase top padding */
-    padding-bottom: 30px; /* Increase top padding */
-    padding-left: 50px; /* Increase top padding */
-    padding-right: 50px; /* Increase top padding */
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    padding-left: 50px; 
+    padding-right: 50px;
     background: transparent ;
-    width: 90vw; /* Viewport width */
-    position: center; /* To offset any container's position styles */
+    width: 90vw; 
+    position: center;
     left: auto;
     right: auto;
-    margin-left: 20px; /* Pulls the section back into full view */
+    margin-left: 20px; 
     margin-right: 20px;
 }
 #sectionpheder {
@@ -190,123 +190,123 @@ footer a i {
     color:  #0f2027;   
 }
 #textArea1 {
-    background-color: #FFB6C1; /* Example color for text area */
+    background-color: #FFB6C1; 
 }
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
-    grid-gap: 20px; /* Adjust the space between grid items */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px;
     margin: 0 auto; /* Center the grid */
-    max-width: 1200px; /* Maximum width of the grid */
-    padding: 20px; /* Padding around the grid */
+    max-width: 1200px; 
+    padding: 20px; 
 }
 
 .project-item {
-    background: linear-gradient(to right, #c5daf5, #f4cece, #c5daf5); /* Background color for each item */
+    background: linear-gradient(to right, #c5daf5, #f4cece, #c5daf5); 
     
-    padding: 20px; /* Padding inside each item */
-    border: 10px  #cccccc; /* Border for each item */
+    padding: 20px; 
+    border: 10px  #cccccc; 
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
-    /* Add other styling as needed */
+  
 }
 
 .projects-grid2 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates two columns */
-    grid-gap: 20px; /* Adjust the space between grid items */
-    margin: 0 auto; /* Center the grid */
-    max-width: 1200px; /* Maximum width of the grid */
-    padding: 20px; /* Padding around the grid */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px; 
 }
 
 .project-item2uop {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/Uofpeople.jpeg); /* Background color for each item */
+    background-image: url(resurces/Uofpeople.jpeg); 
     background-blend-mode: overlay;
-    background-size: cover; /* This will make sure your image covers the entire area */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-size: cover;
+    background-repeat: no-repeat; 
     background-position: center; 
-    padding: 20px; /* Padding inside each item */
-    border: 10px  #cccccc; /* Border for each item */
+    padding: 20px;
+    border: 10px  #cccccc; 
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 
 .project-item2nobile {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/nobile.jpeg); /* Background color for each item */
+    background-image: url(resurces/nobile.jpeg); 
     background-blend-mode: overlay;
-    background-size: cover; /* This will make sure your image covers the entire area */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-size: cover; 
+    background-repeat: no-repeat; 
     background-position: center; 
-    padding: 20px; /* Padding inside each item */
-    border: 10px  #cccccc; /* Border for each item */
+    padding: 20px; 
+    border: 10px  #cccccc; 
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 
 .project-item2inter {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/IIOJ.jpeg); /* Background color for each item */
+    background-image: url(resurces/IIOJ.jpeg); 
     background-blend-mode: overlay;
-    background-size: cover; /* This will make sure your image covers the entire area */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-size: cover; 
+    background-repeat: no-repeat; 
     background-position: center; 
-    padding: 20px; /* Padding inside each item */
-    border: 10px  #cccccc; /* Border for each item */
+    padding: 20px; 
+    border: 10px  #cccccc; 
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 .project-item2Google {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/google.png); /* Background color for each item */
+    background-image: url(resurces/google.png); 
     background-blend-mode: overlay;
-    background-size: cover; /* This will make sure your image covers the entire area */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-size: cover; 
+    background-repeat: no-repeat; 
     background-position: center; 
-    padding: 20px; /* Padding inside each item */
-    border: 10px  #cccccc; /* Border for each item */
+    padding: 20px; 
+    border: 10px  #cccccc; 
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 
 .project-item2IBM {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/ibm.png); /* Background color for each item */
+    background-image: url(resurces/ibm.png);
     background-blend-mode: overlay;
-    background-size: cover; /* This will make sure your image covers the entire area */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-size: cover;
+    background-repeat: no-repeat; 
     background-position: center; 
-    padding: 20px; /* Padding inside each item */
-    border: 10px  #cccccc; /* Border for each item */
+    padding: 20px; 
+    border: 10px  #cccccc; 
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 
 .project-item2Microsoft {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/microsoft.png); /* Background color for each item */
+    background-image: url(resurces/microsoft.png); 
     background-blend-mode: overlay;
-    background-size: cover; /* This will make sure your image covers the entire area */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center; 
-    padding: 20px; /* Padding inside each item */
-    border: 10px  #cccccc; /* Border for each item */
+    padding: 20px; 
+    border: 10px  #cccccc; 
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
 
 .project-item2HArvard {
     background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/hervard.png); /* Background color for each item */
+    background-image: url(resurces/hervard.png); 
     background-blend-mode: overlay;
-    background-size: cover; /* This will make sure your image covers the entire area */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-size: cover; 
+    background-repeat: no-repeat; 
     background-position: center; 
-    padding: 20px; /* Padding inside each item */
-    border: 10px  #cccccc; /* Border for each item */
+    padding: 20px; 
+    border: 10px  #cccccc; 
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
@@ -316,11 +316,16 @@ footer a i {
     position: absolute;
     bottom: 0px;
     right: 10px;
-    background-image: url('resurces/firma-bianca.png'); /* Sostituisci con il percorso della tua immagine di firma */
+    background-image: url('resurces/firma-bianca.png'); 
     background-size: contain;
     background-repeat: no-repeat;
-    width: 225px; /* Ajusta come necessario */
-    height: 85px; /* Ajusta come necessario */
+    width: 225px; 
+    height: 85px; 
+}
+@media (max-width: 600px) {
+    footer {
+        padding-bottom: 120px; 
+    }
 }
 
 /*licens for images 
