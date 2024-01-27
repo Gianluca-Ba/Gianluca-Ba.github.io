@@ -181,14 +181,17 @@ footer a i {
     margin-left: 20px; 
     margin-right: 20px;
 }
+
 #sectionpheder {
     color:  #224555;  
     font-family: 'phosphate solid', sans-serif;
     font-size: 1.5em;
 }
+
 #sectionpmain {
     color:  #0f2027;   
 }
+
 #textArea1 {
     background-color: #FFB6C1; 
 }
@@ -259,6 +262,7 @@ footer a i {
     border-radius: 10px;
     box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
 }
+
 .project-item2Google {
     background-color: rgba(255, 255, 255, 0.85); 
     background-image: url(resurces/google.png); 
