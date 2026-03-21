@@ -35,7 +35,7 @@ header, nav ul {
     margin: 0 auto;
 }
 
-
+header h1 a:visited
 header h1 {
     font-family: 'Big Shoulders Inline Text', sans-serif;
     color: rgb(214, 131, 86);
