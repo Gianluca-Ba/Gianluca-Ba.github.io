@@ -223,7 +223,18 @@ footer a i {
     max-width: 1200px;
     padding: 20px; 
 }
-
+.project-item2uol {
+    background-color: rgba(255, 255, 255, 0.85); 
+    background-image: url(resurces/Uol.png); 
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: 20px;
+    border: 10px  #cccccc; 
+    border-radius: 10px;
+    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
+}
 .project-item2uop {
     background-color: rgba(255, 255, 255, 0.85); 
     background-image: url(resurces/Uofpeople.jpeg); 
