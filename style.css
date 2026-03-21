@@ -48,6 +48,13 @@ header h1 a:active {
     color: rgb(214, 131, 86);
     text-decoration: none;
 }
+header h2 a,
+header h2 a:visited,
+header h2 a:hover,
+header h2 a:active {
+    color: rgb(214, 131, 86);
+    text-decoration: none;
+}
 
 header p {
     font-family: 'Arial', sans-serif;
