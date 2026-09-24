@@ -534,3 +534,134 @@ footer i { margin-right: 5px; }
     padding-top: 40px;
   }
 }
+
+
+/* RESUME PAGE - CLEAN V3 */
+.resume-page {
+  width: min(92vw, 900px);
+  margin: 0 auto;
+  padding: 72px 0 36px;
+}
+
+.resume-simple {
+  text-align: center;
+  padding: 24px 16px 38px;
+}
+
+.resume-simple h1 {
+  margin: 0;
+  font-family: 'Big Shoulders Inline Text', sans-serif;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 1;
+}
+
+.resume-simple h1 a,
+.resume-simple h1 a:visited {
+  color: rgb(214, 131, 86);
+  text-decoration: none;
+}
+
+.resume-simple h2 {
+  margin: 18px 0 8px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 600;
+}
+
+.resume-simple .eyebrow {
+  margin: 0 0 14px;
+  color: #d3d3d3;
+  font-family: Arial, sans-serif;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+}
+
+.resume-simple-copy {
+  margin: 0 auto;
+  color: #aeb8bf;
+  font-family: Arial, sans-serif;
+  font-size: .98rem;
+}
+
+.resume-button-row {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.resume-button {
+  min-width: 170px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 12px 20px;
+  border: 1px solid rgb(214, 131, 86);
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  font-size: .95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color .2s ease, color .2s ease, transform .2s ease;
+}
+
+.resume-button-primary {
+  background: rgb(214, 131, 86);
+  color: #0c1024;
+}
+
+.resume-button-secondary {
+  background: transparent;
+  color: rgb(214, 131, 86);
+}
+
+.resume-button:hover {
+  transform: translateY(-1px);
+}
+
+.resume-button-primary:hover {
+  background: rgb(229, 150, 108);
+}
+
+.resume-button-secondary:hover {
+  background: rgba(214, 131, 86, .08);
+}
+
+.resume-back-nav {
+  text-align: center;
+  padding: 4px 0 40px;
+}
+
+.resume-back-nav a {
+  color: #d3d3d3;
+  font-family: Arial, sans-serif;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.resume-back-nav a:hover {
+  color: rgb(214, 131, 86);
+}
+
+@media (max-width: 520px) {
+  .resume-page {
+    padding-top: 46px;
+  }
+
+  .resume-button-row {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .resume-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
