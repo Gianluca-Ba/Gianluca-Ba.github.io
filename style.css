@@ -1,356 +1,337 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&display=swap');
 
+:root {
+  --bg-left: #143544;
+  --bg-right: #0c1024;
+  --accent: rgb(214, 131, 86);
+  --text: #d9dde0;
+  --muted: #aeb8be;
+  --light: #edf1f2;
+  --ink: #12212a;
+  --panel: rgba(255, 255, 255, 0.07);
+  --panel-border: rgba(255, 255, 255, 0.14);
+  --max: 1120px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
 body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'phosphate inline', sans-serif;
-    line-height: 1.6;
-    background: linear-gradient(to right, #143544, #0c1024);
-    color: #d3d3d3; 
-    text-align: center;
-    justify-content: center;
-    overflow-x: hidden;
+  min-height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+  background: linear-gradient(120deg, var(--bg-left), var(--bg-right));
+  color: var(--text);
 }
 
-
-header, nav ul {
-    font-family: 'phosphate inline', sans-serif;
-}
+body { overflow-x: hidden; }
 
 .container {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-#project {
-    font-family: Arial, sans-serif;
-    justify-content: left;
-    text-align: left;
-    margin: 0 auto;
+.content-width {
+  width: min(var(--max), calc(100% - 48px));
+  margin-left: auto;
+  margin-right: auto;
 }
+
+header { width: 100%; }
+
+#section1 {
+  padding: 72px 0 48px;
+  text-align: left;
+}
+
+.hero #section1 { padding-top: 96px; }
 
 header h1 {
-    font-family: 'Big Shoulders Inline Text', sans-serif;
-    font-size: 5em;
-    background: transparent;
+  margin: 0 0 6px;
+  font-family: 'Big Shoulders Inline Text', Impact, sans-serif;
+  font-size: clamp(3rem, 8vw, 6.1rem);
+  line-height: 0.95;
+  letter-spacing: 0.02em;
+  font-weight: 400;
 }
 
 header h1 a,
 header h1 a:visited,
 header h1 a:hover,
 header h1 a:active {
-    color: rgb(214, 131, 86);
-    text-decoration: none;
+  color: var(--accent);
+  text-decoration: none;
 }
 
-header p {
-    font-family: 'Arial', sans-serif;
-    margin-top: 0.5em;
-    background: linear-gradient(to right, #143544, #0c1024);
-    color: #d3d3d3; 
+h2 {
+  margin: 14px 0 18px;
+  color: #ffffff;
+  font-size: clamp(1.65rem, 3vw, 2.35rem);
+  line-height: 1.2;
 }
+
+h3 { line-height: 1.25; }
+
+p { margin: 0 0 1.15em; }
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.hero-subtitle {
+  max-width: 930px;
+  color: #ffffff;
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+
+.intro,
+.prose-page p {
+  max-width: 940px;
+  color: var(--text);
+  font-size: 1.03rem;
+}
+
+.impact-section { padding: 18px 0 62px; }
+
+.impact-grid,
+.credential-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.impact-card,
+.credential-card,
+.role-card {
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: 0 12px 30px rgba(0,0,0,.10);
+}
+
+.impact-card { padding: 24px; }
+.impact-card h3 { margin: 0 0 8px; color: var(--accent); }
+.impact-card p { margin: 0; color: var(--text); }
+
+.career-strip {
+  width: 100%;
+  padding: 34px 0;
+  background: var(--light);
+  color: var(--ink);
+}
+
+.career-strip h2 { margin-top: 0; color: var(--ink); }
+.career-strip p { margin-bottom: 0; font-weight: 700; }
+
+.primary-nav {
+  width: 100%;
+  padding: 38px 24px;
+  text-align: center;
+  background: var(--light);
+}
+
+.compact-nav { margin-top: 46px; }
 
 nav ul {
-    font-family: 'phosphate inline', sans-serif;
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-
-nav ul li {
-    font-family: 'phosphate inline', sans-serif;
-    margin: 20px 0;
+#directory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
 }
 
-nav ul li a {
-    font-family: 'phosphate inline', sans-serif;
-    color: #0f2027;
-    text-decoration: none;
-    font-size: 1.2em;
-    background: linear-gradient(to right, #143544, #0c1024);
-    padding: 10px 20px;
-    display: inline-block;
-    transition: all 0.3s ease-in-out;
-    background: #e5e9ea;
+nav ul li { margin: 0; }
+
+nav ul li a,
+.download-button {
+  display: inline-block;
+  border: 1px solid rgba(18,33,42,.18);
+  border-radius: 8px;
+  padding: 11px 17px;
+  background: #ffffff;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform .2s ease, border-color .2s ease, color .2s ease;
 }
 
-nav ul li a .arrow {
-    font-family: 'phosphate inline', sans-serif;
-    margin-left: 10px;
-    color: #143544;
+nav ul li a:hover,
+.download-button:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-nav ul li a:hover {
-    font-family: 'phosphate inline', sans-serif;
-    background-color: transparent;
-    border-color: rgb(214, 131, 86); 
-    color: rgb(214, 131, 86);
+.arrow { margin-left: 8px; }
+
+.timeline { padding: 8px 0 56px; }
+
+.role-card {
+  margin-bottom: 18px;
+  padding: 26px 28px;
 }
+
+.role-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.role-heading h3 {
+  margin: 0 0 4px;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.role-title {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.role-scope {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: .93rem;
+}
+
+.role-meta {
+  min-width: 145px;
+  color: var(--muted);
+  text-align: right;
+  font-size: .92rem;
+  white-space: nowrap;
+}
+
+.role-card ul {
+  margin: 16px 0 0;
+  padding-left: 1.2rem;
+}
+
+.role-card li { margin: 0 0 8px; }
+
+.credential-section { padding: 8px 0 48px; }
+.credential-section > h2 { margin-bottom: 20px; }
+.credential-card { padding: 22px; }
+.credential-card h3 { margin: 0 0 8px; color: #ffffff; }
+.credential-card p { margin: 0 0 4px; color: var(--text); }
+.credential-title { color: var(--accent) !important; font-weight: 700; }
+.compact-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.credential-link { color: inherit; text-decoration: none; }
+.credential-link .credential-card { height: 100%; transition: transform .2s ease, border-color .2s ease; }
+.credential-link:hover .credential-card { transform: translateY(-3px); border-color: var(--accent); }
+.section-note { max-width: 880px; color: var(--muted); }
+
+.resume-page { text-align: left; }
+.download-button { margin-top: 10px; font-size: 1rem; }
+.download-button i { margin-right: 8px; }
 
 footer {
-    display: line;
-    align-items: inline; 
-    justify-content: space-around; 
-    text-align: center;
-}
-
-footer a {
-    font-family: 'Arial', sans-serif;
-    display: block;
-    color: #d3d3d3;
-    margin: 10px 0;
-    text-decoration: none;
-    background: transparent;
-
-}
-
-footer a:hover {
-    color: rgb(214, 131, 86);
-}
-
-footer a i {
-    margin-right: 5px;
-}
-
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    nav ul li a {
-            font-family: 'Arial', sans-serif;
-        padding: 8px 15px;
-        font-size: 1em;
-    }
-}
-
-#section1 {
-    padding-top: 30px; 
-    padding-bottom: 30px; 
-    padding-left: 50px; 
-    padding-right: 50px; 
-    background: transparent; 
-    width: 90vw; 
-    position: center; 
-    left: 40%;
-    right: 40%;
-    margin-left: 20px; 
-    margin-right: 20px;
-}
-
-#section2 {
-    padding-top: 30px; 
-    padding-bottom: 30px; 
-    background: #e5e9ea; 
-    width: 110vw; 
-    position: relative; 
-    left: 60%;
-    right: 60%;
-    margin-left: -55vw; 
-    margin-right: -55vw;
-    justify-content: center;
-    text-align: center;
-    overflow-x: 50px;
-}
-
-#section3 {
-    padding-top: 30px; 
-    padding-bottom: 30px; 
-    background: transparent;
-    width: 100vw;
-    position: relative; 
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw; 
-    margin-right: -50vw;
-    justify-content: center;
-    text-align: center;
-    overflow-x: 25px;
+  margin-top: auto;
+  position: relative;
+  padding: 36px 0 42px;
 }
 
 #sectionfooter {
-    padding-top: 30px; 
-    padding-bottom: 30px; 
-    padding-left: 50px; 
-    padding-right: 50px;
-    background: transparent ;
-    width: 90vw; 
-    position: center;
-    left: auto;
-    right: auto;
-    margin-left: 20px; 
-    margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px 22px;
+  padding: 0;
+  text-align: center;
 }
 
-#sectionpheder {
-    color:  #224555;  
-    font-family: 'phosphate solid', sans-serif;
-    font-size: 1.5em;
+footer a,
+.footer-location {
+  color: var(--text);
+  text-decoration: none;
+  font-size: .92rem;
 }
 
-#sectionpmain {
-    color:  #0f2027;   
+footer a:hover { color: var(--accent); }
+footer i { margin-right: 5px; }
+
+#sectionfooter::after {
+  content: '';
+  position: absolute;
+  right: 24px;
+  bottom: 8px;
+  width: 190px;
+  height: 64px;
+  background-image: url('resurces/firma-bianca.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  opacity: .85;
 }
 
-#textArea1 {
-    background-color: #FFB6C1; 
+/* Keep compatibility with legacy project-card classes used by older pages/assets. */
+#project {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin: 0 auto;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-gap: 20px;
-    margin: 0 auto; /* Center the grid */
-    max-width: 1200px; 
-    padding: 20px; 
-}
-
-.project-item {
-    background: linear-gradient(to right, #c5daf5, #f4cece, #c5daf5); 
-    
-    padding: 20px; 
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1)
-  
-}
-
+.projects-grid,
 .projects-grid2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 20px;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px; 
+  display: grid;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px 0;
 }
-.project-item2uol {
-    background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/Uol.png); 
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center; 
-    padding: 20px;
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
-}
-.project-item2uop {
-    background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/Uofpeople.jpeg); 
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center; 
-    padding: 20px;
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
-}
-
-.project-item2nobile {
-    background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/nobile.jpeg); 
-    background-blend-mode: overlay;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    padding: 20px; 
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
-}
-
-.project-item2inter {
-    background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/IIOJ.jpeg); 
-    background-blend-mode: overlay;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    padding: 20px; 
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
-}
-
-.project-item2Google {
-    background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/google.png); 
-    background-blend-mode: overlay;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    padding: 20px; 
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
-}
-
-.project-item2IBM {
-    background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/ibm.png);
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center; 
-    padding: 20px; 
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
-}
-
-.project-item2Microsoft {
-    background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/microsoft.png); 
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-    padding: 20px; 
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
-}
-
+.projects-grid { grid-template-columns: repeat(2, 1fr); }
+.projects-grid2 { grid-template-columns: repeat(3, 1fr); }
+.project-item,
+.project-item2uol,
+.project-item2uop,
+.project-item2nobile,
+.project-item2inter,
+.project-item2Google,
+.project-item2IBM,
+.project-item2Microsoft,
 .project-item2HArvard {
-    background-color: rgba(255, 255, 255, 0.85); 
-    background-image: url(resurces/hervard.png); 
-    background-blend-mode: overlay;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    padding: 20px; 
-    border: 10px  #cccccc; 
-    border-radius: 10px;
-    box-shadow: 100 25px 15px rgba(225, 145, 145, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,.88);
+  color: var(--ink);
 }
 
-#sectionfooter::after{
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    right: 10px;
-    background-image: url('resurces/firma-bianca.png'); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 225px; 
-    height: 85px; 
-}
-@media (max-width: 600px) {
-    footer {
-        padding-bottom: 120px; 
-    }
+@media (max-width: 900px) {
+  .compact-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
 }
 
-/*licens for images 
-
-            Image by <a href="https://www.freepik.com/free-vector/paper-style-dynamic-lines-background_15442020.htm#page=3&query=modern%20background&position=8&from_view=search&track=ais&uuid=35cb00e5-d104-4688-8ffe-10ace0f15422">Freepik</a>
-
-*/
+@media (max-width: 700px) {
+  .content-width { width: min(100% - 30px, var(--max)); }
+  #section1 { padding-top: 48px; padding-bottom: 34px; }
+  .hero #section1 { padding-top: 58px; }
+  .impact-grid,
+  .credential-grid,
+  .compact-grid,
+  .projects-grid,
+  .projects-grid2 { grid-template-columns: 1fr; }
+  .role-heading { flex-direction: column; gap: 8px; }
+  .role-meta { text-align: left; white-space: normal; }
+  .role-card { padding: 22px 20px; }
+  #directory { flex-direction: column; align-items: stretch; }
+  nav ul li a { width: 100%; }
+  #sectionfooter { flex-direction: column; gap: 8px; }
+  #sectionfooter::after { position: static; display: block; margin: 18px auto 0; width: 150px; height: 52px; }
+}
