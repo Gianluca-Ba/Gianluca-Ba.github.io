@@ -1,0 +1,85 @@
+/* Shared language controls, kept visible while reading every section. */
+.language-switcher {
+  position: fixed;
+  z-index: 20;
+  top: 12px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px;
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  background: #12212a;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, .18);
+}
+.language-switcher a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 6px 10px;
+  border-radius: 7px;
+  color: var(--text);
+  font-size: .88rem;
+  text-decoration: none;
+}
+.language-switcher a[aria-current="true"] {
+  background: var(--accent);
+  color: var(--ink);
+  font-weight: 700;
+}
+.language-switcher a:hover { background: rgba(255, 255, 255, .14); color: #fff; }
+.language-label { padding: 0 8px; color: var(--muted); font-size: .8rem; }
+.language-all { font-size: 1.3rem; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+.language-landing { padding: 84px 0 48px; }
+.language-landing h1 {
+  margin: 0;
+  color: var(--accent);
+  font-family: 'Big Shoulders Inline Text', Impact, sans-serif;
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-weight: 400;
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+}
+.language-role { margin-top: 18px; color: #fff; font-size: 1.2rem; }
+.language-welcome { margin-top: 52px; }
+.language-welcome h2 { margin-bottom: 10px; }
+.language-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 28px 0; }
+.language-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 104px;
+  padding: 22px;
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  background: var(--panel);
+  color: #fff;
+  text-decoration: none;
+}
+.language-card strong { font-size: 1.2rem; }
+.language-card > span:last-child { margin-left: auto; }
+.language-card:hover { border-color: var(--accent); background: rgba(214, 131, 86, .12); }
+.language-code { color: var(--accent); font-size: .75rem; font-weight: 700; letter-spacing: .08em; }
+.language-note, .language-privacy { max-width: 880px; color: var(--muted); font-size: .85rem; }
+.language-note p { margin-bottom: 8px; }
+.language-privacy { margin-top: 28px; }
+.language-privacy summary { cursor: pointer; }
+.language-privacy p { margin-top: 14px; }
+html[lang="ja"] body { font-family: Arial, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif; line-height: 1.85; }
+html[lang="ja"] .hero-subtitle { line-height: 1.65; }
+@media (max-width: 700px) {
+  .language-cards { grid-template-columns: 1fr; }
+  .language-card { min-height: 82px; }
+  .language-switcher { top: 8px; right: 10px; gap: 1px; }
+  .language-label { display: none; }
+  .language-switcher a { padding: 5px 9px; }
+  .language-switcher ~ .container #section1,
+  .language-switcher ~ .container .hero #section1 { padding-top: 86px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; }
+}

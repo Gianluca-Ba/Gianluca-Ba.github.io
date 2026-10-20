@@ -1,0 +1,6 @@
+# Source templates and tooling are kept out of the public Jekyll site.
+exclude:
+  - content
+  - scripts
+  - README.md
+  - read.me
